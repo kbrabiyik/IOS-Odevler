@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		746998E4280A9F3A00287228 /* AbrilFatface-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 746998E2280A9F3A00287228 /* AbrilFatface-Regular.ttf */; };
+		746998E5280A9F3A00287228 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 746998E3280A9F3A00287228 /* OFL.txt */; };
+		74C19AC6280A7D6A00A9588B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C19AC5280A7D6A00A9588B /* AppDelegate.swift */; };
+		74C19AC8280A7D6A00A9588B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C19AC7280A7D6A00A9588B /* SceneDelegate.swift */; };
+		74C19ACA280A7D6A00A9588B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C19AC9280A7D6A00A9588B /* ViewController.swift */; };
+		74C19ACD280A7D6A00A9588B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C19ACB280A7D6A00A9588B /* Main.storyboard */; };
+		74C19ACF280A7D6D00A9588B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C19ACE280A7D6D00A9588B /* Assets.xcassets */; };
+		74C19AD2280A7D6D00A9588B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C19AD0280A7D6D00A9588B /* LaunchScreen.storyboard */; };
+		74C19ADD280A7D6D00A9588B /* _SayfaTasarimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C19ADC280A7D6D00A9588B /* _SayfaTasarimTests.swift */; };
+		74C19AE7280A7D6D00A9588B /* _SayfaTasarimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C19AE6280A7D6D00A9588B /* _SayfaTasarimUITests.swift */; };
+		74C19AE9280A7D6D00A9588B /* _SayfaTasarimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C19AE8280A7D6D00A9588B /* _SayfaTasarimUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74C19AD9280A7D6D00A9588B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74C19ABA280A7D6A00A9588B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74C19AC1280A7D6A00A9588B;
+			remoteInfo = 1SayfaTasarim;
+		};
+		74C19AE3280A7D6D00A9588B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74C19ABA280A7D6A00A9588B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74C19AC1280A7D6A00A9588B;
+			remoteInfo = 1SayfaTasarim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		746998E2280A9F3A00287228 /* AbrilFatface-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbrilFatface-Regular.ttf"; sourceTree = "<group>"; };
+		746998E3280A9F3A00287228 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		74C19AC2280A7D6A00A9588B /* 1SayfaTasarim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1SayfaTasarim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C19AC5280A7D6A00A9588B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74C19AC7280A7D6A00A9588B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74C19AC9280A7D6A00A9588B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74C19ACC280A7D6A00A9588B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74C19ACE280A7D6D00A9588B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74C19AD1280A7D6D00A9588B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74C19AD3280A7D6D00A9588B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74C19AD8280A7D6D00A9588B /* 1SayfaTasarimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1SayfaTasarimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C19ADC280A7D6D00A9588B /* _SayfaTasarimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _SayfaTasarimTests.swift; sourceTree = "<group>"; };
+		74C19AE2280A7D6D00A9588B /* 1SayfaTasarimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1SayfaTasarimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C19AE6280A7D6D00A9588B /* _SayfaTasarimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _SayfaTasarimUITests.swift; sourceTree = "<group>"; };
+		74C19AE8280A7D6D00A9588B /* _SayfaTasarimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _SayfaTasarimUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74C19ABF280A7D6A00A9588B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C19AD5280A7D6D00A9588B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C19ADF280A7D6D00A9588B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		746998E1280A9F3A00287228 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				746998E2280A9F3A00287228 /* AbrilFatface-Regular.ttf */,
+				746998E3280A9F3A00287228 /* OFL.txt */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		74C19AB9280A7D6A00A9588B = {
+			isa = PBXGroup;
+			children = (
+				74C19AC4280A7D6A00A9588B /* 1SayfaTasarim */,
+				74C19ADB280A7D6D00A9588B /* 1SayfaTasarimTests */,
+				74C19AE5280A7D6D00A9588B /* 1SayfaTasarimUITests */,
+				74C19AC3280A7D6A00A9588B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74C19AC3280A7D6A00A9588B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74C19AC2280A7D6A00A9588B /* 1SayfaTasarim.app */,
+				74C19AD8280A7D6D00A9588B /* 1SayfaTasarimTests.xctest */,
+				74C19AE2280A7D6D00A9588B /* 1SayfaTasarimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74C19AC4280A7D6A00A9588B /* 1SayfaTasarim */ = {
+			isa = PBXGroup;
+			children = (
+				74C19AC5280A7D6A00A9588B /* AppDelegate.swift */,
+				74C19AC7280A7D6A00A9588B /* SceneDelegate.swift */,
+				74C19AC9280A7D6A00A9588B /* ViewController.swift */,
+				746998E1280A9F3A00287228 /* Font */,
+				74C19ACB280A7D6A00A9588B /* Main.storyboard */,
+				74C19ACE280A7D6D00A9588B /* Assets.xcassets */,
+				74C19AD0280A7D6D00A9588B /* LaunchScreen.storyboard */,
+				74C19AD3280A7D6D00A9588B /* Info.plist */,
+			);
+			path = 1SayfaTasarim;
+			sourceTree = "<group>";
+		};
+		74C19ADB280A7D6D00A9588B /* 1SayfaTasarimTests */ = {
+			isa = PBXGroup;
+			children = (
+				74C19ADC280A7D6D00A9588B /* _SayfaTasarimTests.swift */,
+			);
+			path = 1SayfaTasarimTests;
+			sourceTree = "<group>";
+		};
+		74C19AE5280A7D6D00A9588B /* 1SayfaTasarimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74C19AE6280A7D6D00A9588B /* _SayfaTasarimUITests.swift */,
+				74C19AE8280A7D6D00A9588B /* _SayfaTasarimUITestsLaunchTests.swift */,
+			);
+			path = 1SayfaTasarimUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74C19AC1280A7D6A00A9588B /* 1SayfaTasarim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C19AEC280A7D6D00A9588B /* Build configuration list for PBXNativeTarget "1SayfaTasarim" */;
+			buildPhases = (
+				74C19ABE280A7D6A00A9588B /* Sources */,
+				74C19ABF280A7D6A00A9588B /* Frameworks */,
+				74C19AC0280A7D6A00A9588B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 1SayfaTasarim;
+			productName = 1SayfaTasarim;
+			productReference = 74C19AC2280A7D6A00A9588B /* 1SayfaTasarim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74C19AD7280A7D6D00A9588B /* 1SayfaTasarimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C19AEF280A7D6D00A9588B /* Build configuration list for PBXNativeTarget "1SayfaTasarimTests" */;
+			buildPhases = (
+				74C19AD4280A7D6D00A9588B /* Sources */,
+				74C19AD5280A7D6D00A9588B /* Frameworks */,
+				74C19AD6280A7D6D00A9588B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74C19ADA280A7D6D00A9588B /* PBXTargetDependency */,
+			);
+			name = 1SayfaTasarimTests;
+			productName = 1SayfaTasarimTests;
+			productReference = 74C19AD8280A7D6D00A9588B /* 1SayfaTasarimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74C19AE1280A7D6D00A9588B /* 1SayfaTasarimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C19AF2280A7D6D00A9588B /* Build configuration list for PBXNativeTarget "1SayfaTasarimUITests" */;
+			buildPhases = (
+				74C19ADE280A7D6D00A9588B /* Sources */,
+				74C19ADF280A7D6D00A9588B /* Frameworks */,
+				74C19AE0280A7D6D00A9588B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74C19AE4280A7D6D00A9588B /* PBXTargetDependency */,
+			);
+			name = 1SayfaTasarimUITests;
+			productName = 1SayfaTasarimUITests;
+			productReference = 74C19AE2280A7D6D00A9588B /* 1SayfaTasarimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74C19ABA280A7D6A00A9588B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					74C19AC1280A7D6A00A9588B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					74C19AD7280A7D6D00A9588B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 74C19AC1280A7D6A00A9588B;
+					};
+					74C19AE1280A7D6D00A9588B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 74C19AC1280A7D6A00A9588B;
+					};
+				};
+			};
+			buildConfigurationList = 74C19ABD280A7D6A00A9588B /* Build configuration list for PBXProject "1SayfaTasarim" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74C19AB9280A7D6A00A9588B;
+			productRefGroup = 74C19AC3280A7D6A00A9588B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74C19AC1280A7D6A00A9588B /* 1SayfaTasarim */,
+				74C19AD7280A7D6D00A9588B /* 1SayfaTasarimTests */,
+				74C19AE1280A7D6D00A9588B /* 1SayfaTasarimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74C19AC0280A7D6A00A9588B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746998E5280A9F3A00287228 /* OFL.txt in Resources */,
+				74C19AD2280A7D6D00A9588B /* LaunchScreen.storyboard in Resources */,
+				74C19ACF280A7D6D00A9588B /* Assets.xcassets in Resources */,
+				74C19ACD280A7D6A00A9588B /* Main.storyboard in Resources */,
+				746998E4280A9F3A00287228 /* AbrilFatface-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C19AD6280A7D6D00A9588B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C19AE0280A7D6D00A9588B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74C19ABE280A7D6A00A9588B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C19ACA280A7D6A00A9588B /* ViewController.swift in Sources */,
+				74C19AC6280A7D6A00A9588B /* AppDelegate.swift in Sources */,
+				74C19AC8280A7D6A00A9588B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C19AD4280A7D6D00A9588B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C19ADD280A7D6D00A9588B /* _SayfaTasarimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C19ADE280A7D6D00A9588B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C19AE7280A7D6D00A9588B /* _SayfaTasarimUITests.swift in Sources */,
+				74C19AE9280A7D6D00A9588B /* _SayfaTasarimUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74C19ADA280A7D6D00A9588B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74C19AC1280A7D6A00A9588B /* 1SayfaTasarim */;
+			targetProxy = 74C19AD9280A7D6D00A9588B /* PBXContainerItemProxy */;
+		};
+		74C19AE4280A7D6D00A9588B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74C19AC1280A7D6A00A9588B /* 1SayfaTasarim */;
+			targetProxy = 74C19AE3280A7D6D00A9588B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74C19ACB280A7D6A00A9588B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74C19ACC280A7D6A00A9588B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74C19AD0280A7D6D00A9588B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74C19AD1280A7D6D00A9588B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74C19AEA280A7D6D00A9588B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74C19AEB280A7D6D00A9588B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74C19AED280A7D6D00A9588B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 1SayfaTasarim/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deneme.-SayfaTasarim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74C19AEE280A7D6D00A9588B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 1SayfaTasarim/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deneme.-SayfaTasarim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74C19AF0280A7D6D00A9588B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deneme.-SayfaTasarimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1SayfaTasarim.app/1SayfaTasarim";
+			};
+			name = Debug;
+		};
+		74C19AF1280A7D6D00A9588B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deneme.-SayfaTasarimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1SayfaTasarim.app/1SayfaTasarim";
+			};
+			name = Release;
+		};
+		74C19AF3280A7D6D00A9588B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deneme.-SayfaTasarimUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 1SayfaTasarim;
+			};
+			name = Debug;
+		};
+		74C19AF4280A7D6D00A9588B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deneme.-SayfaTasarimUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 1SayfaTasarim;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74C19ABD280A7D6A00A9588B /* Build configuration list for PBXProject "1SayfaTasarim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C19AEA280A7D6D00A9588B /* Debug */,
+				74C19AEB280A7D6D00A9588B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C19AEC280A7D6D00A9588B /* Build configuration list for PBXNativeTarget "1SayfaTasarim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C19AED280A7D6D00A9588B /* Debug */,
+				74C19AEE280A7D6D00A9588B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C19AEF280A7D6D00A9588B /* Build configuration list for PBXNativeTarget "1SayfaTasarimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C19AF0280A7D6D00A9588B /* Debug */,
+				74C19AF1280A7D6D00A9588B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C19AF2280A7D6D00A9588B /* Build configuration list for PBXNativeTarget "1SayfaTasarimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C19AF3280A7D6D00A9588B /* Debug */,
+				74C19AF4280A7D6D00A9588B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74C19ABA280A7D6A00A9588B /* Project object */;
+}
