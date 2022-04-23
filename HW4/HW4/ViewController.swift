@@ -1,9 +1,3 @@
-//
-//  ViewController.swift
-//  HW4
-//
-//  Created by KUBRANIN MACİ on 24.04.2022.
-//
 
 import UIKit
 
